@@ -52,24 +52,28 @@
 //   print(BackgrounColer);
 // }
 
-void main() {
-  var hassan = Person();
-  print(hassan.age);
-  print(hassan.favoriteColer);
+// void main() {
+//   var hassan = Person();
+//   print(hassan.age);
+//   print(hassan.favoriteColer);
 
-  hassan.favoriteColer = "red";
-  setBackgroundColor(hassan.favoriteColer!);
-}
+//   hassan.favoriteColer = "red";
+//   setBackgroundColor(hassan.favoriteColer!);
+// }
 
-class Person {
-  late int age;
-  String? favoriteColer = null;
+// class Person {
+//   late int age;
+//   String? favoriteColer = null;
 
-  Person() {
-    age = age + 2;
-  }
-}
+//   Person() {
+//     age = age + 2;
+//   }
+// }
 
-setBackgroundColor(String color) {
-  print(color);
-}
+// setBackgroundColor(String color) {
+//   print(color);
+// }
+
+// void main() {
+//   print("person");
+// }
